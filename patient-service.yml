@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/patient_db
+    username: postgres
+    password: 200426 # Thay đoạn này bằng chuỗi mã hóa thực tế của bạn nếu có thay đổi
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+app:
+  welcome: "Chào mừng tới BV RikkeiAcademy"
