@@ -11,7 +11,7 @@ spring:
     gateway:
       discovery:
         locator:
-          enabled: true
+          enabled: false
       routes:
         - id: patient-service
           uri: lb://patient-service
