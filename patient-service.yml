@@ -14,7 +14,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/patient_db
     username: postgres
-    password: '{cipher}14213fd46f09932517e28da6ffb48849df88fb48437f8a1fce6a50df11468a6'
+    password: '{cipher}14213fd46f09932517e28da6ffb48849df88fb48437f8a1fce6a50df11468a6d'
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
